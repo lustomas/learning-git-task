@@ -13,3 +13,4 @@ amount = 0
 for am in shops.values():
     amount = amount + len(am)
 print("W sumie kupuję", amount, "produktów.")
+#koniec zadania
