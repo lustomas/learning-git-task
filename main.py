@@ -8,6 +8,7 @@ shops = {
 shops = {k:[x.capitalize() for x in v] for k,v in shops.items()}
 for shop in shops:
     print("Idę do", shop.capitalize(),"i kupuję tu następujące rzeczy:", shops[shop],".")
+#dodanie licznika wartości słownika
 amount = 0
 for am in shops.values():
     amount = amount + len(am)
